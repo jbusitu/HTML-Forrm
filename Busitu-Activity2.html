@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Java Jam Coffee House</title>
+		<meta name="description" content="3135 Activity">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="Busitu-Activity2.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>JavaJam Coffee House</h1>
+		</header>
+		
+		<main>
+
+			<p>We are a gourmet coffee shop that serves snacks, coffee, tea, and soft drinks. Visit us to check out our:</p>
+			<ul>
+				<li>Specialty Coffee and Tea</li>
+				<li>Bagls, Muffins, and Organic Snacks</li>
+				<li>Music and Poetry Readings</li>
+				<li>Open Mic Night</li>
+			</ul>
+
+
+			<h2>Menu</h2>
+
+			<table>
+				<tr>
+					<th colspan="2">Coffee Selections</th>
+				</tr>
+				<tr class="altrow">
+					<td class="label">
+						Just Java
+					</td>
+					<td>
+						Regular house blend, decaffeinated coffee, or flavor of the day.<br>
+						Endless Cup $2.00
+					</td>
+				</tr>
+				<tr>
+					<td class="label">
+						Cafe au Lait
+					</td>
+					<td>
+						House blended coffee infused into a smooth, steamed milk.<br>
+						Small $2.00, Medium $4.00, Large $6.00
+					</td>
+				</tr>
+				<tr class="altrow">
+					<td class="label">
+						Iced Cappuccino
+					</td>
+					<td>
+						Sweetened espresso blended with icy-cold mil and served in a chilled glass. $4.75
+					</td>
+				</tr>
+			</table>
+
+			<h2>Please fill the form to receive a newsletter or coupons</h2>
+
+			<form action="#">
+				<fieldset>
+					<legend>Fill the form here</legend>
+					<p>
+						<label for="first">First Name:</label>
+						<input type="text" name="first" id="first" placeholder="Text box" size="20" class="first" required/><br/>
+					</p>
+					<p>
+						<label for="last">Last Name:</label>
+						<input type="text" name="last" id="last" placeholder="Text box" size="20" class="last" required/><br/>
+					</p>
+					<p>
+						Gender:
+						<input type="radio" name="gender" id="male" value="male">
+						<label for="male">Male</label>
+						<input type="radio" name="gender" id="female" value="female">
+						<label for="female">Female</label>
+					</p>
+					<p>
+						Email:
+						<label for="email">My Email</label>
+						<input type="email" id="email" placeholder="name@domain.com" maxlength="30" class="email" required/>
+					</p>
+					<p>
+						Phone:
+						<label for="tel">My Phone Number</label>
+						<input type="tel" id="tel" placeholder="##########" maxlength="10" class="phone" required/>
+					</p>
+					<p>
+						Choose Menu:
+						<select name="menu">
+							<option value="just_java">Just Java</option>
+							<option value="cafe_au_lait">Cafe au Lait</option>
+							<option value="iced_cappuccino">Iced Cappuccino</option>
+						</select>
+					<p>
+						Your feedback: <br/>
+						<textarea name="feedback" placeholder="Any question?" rows="8" cols="40" required></textarea>
+					</p>
+					<p>
+						<label for="submit">Submit Form: </label>
+						<input type="submit" name="submit" id="submit" value="submit" class="button"/>
+					</p>
+				</fieldset>
+			</form>
+
+			<h2>Music</h2>
+
+			<p>Local musicians play every Friday and Saturday nights. Sunday night is open mic night.</p>
+
+			<h2>Location</h2>
+			<p>JavaJam is located at<br>
+			8544 University City Blvd<br>
+			Charlotte, NC 28213.<br>
+			See <a id="locationlink" href="https://maps.google.com/">Google Maps</a> for directions.</p>
+
+		</main>
+
+		<footer>
+			<p>Copyright © JavaJam Coffee House<br>
+			manager@javajam.com</p>
+			<a href="https://validator.w3.org">Validate HTML</a>
+			<a href="https://jigsaw.w3.org/css-validator">Validate CSS</a>
+		</footer>
+
+	</body>
+</html>
